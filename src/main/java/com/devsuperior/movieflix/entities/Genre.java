@@ -23,7 +23,7 @@ public class Genre implements Serializable{
 	private String name;
 	
 	@OneToMany(mappedBy = "genre")
-	private List<Movies> movies = new ArrayList<>();
+	private List<Movie> movies = new ArrayList<>();
 
 	public Genre() {
 	}
